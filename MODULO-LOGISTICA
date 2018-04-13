@@ -5,7 +5,7 @@
 - Maven configured
 - Java Resource Packages created
 - Produto class created
-- Produto Servlet created
+- Produto Servlet created.
 
 ====
 
@@ -21,5 +21,19 @@
 - ProdutoDAO created and configured in DAO package
 - Produto class updated to work with Hibernate
 - INSERT method was created in ProdutoDAO class and it's working properly.
+
+===
+
+{12/04/2018} Commit#3 - [Compiles and works on local server - Insert with NUMBER in local DB]
+
+- This commit has several bugs in INSERT ProdutoDAO operation.
+
+===
+
+{13/04/2018} Commit#4 - [Compiles and works on local server - Insert with PK SERIAL and Selects in local DB - Brand New complete
+configured DB sent attached through email]
+
+- PRODUTO: Produto class received @Annotations to work with SERIAL data type in PostgreSQL
+- DAO: ProdutoDAO class created and it's methods "INSERTs" and "SELECTs" are working properly.
 
 ===
